@@ -3,10 +3,13 @@
     <head>
         <title>Foogle</title>
         <style>
-            .header {
+            body{
                 font-size: 14px;
                 font-family: arial, sans-serif;
                 color: #222;
+            }
+            .header {
+
                 text-decoration-line: none;
             }
             li:hover {
@@ -78,18 +81,27 @@
                 border-image-width: 1;
                 color: #202124;
            }
+           .footer{
+                text-decoration: none;
+           }
+
         </style>
     </head>
     <body>
         <ul>
             <li><a class="header" href="https://about.google/">About</a></li>
-            <li><a class="header" href="https://store.google.com">Store</a></ul>
+            <li><a class="header" href="https://store.google.com">Store</a></li>
         </ul>
         <img class="foogle_image" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png" alt="Foogle">
-        <form>
-            <input class="search_form" type="text" maxlength="2048">
+        <input class="search_form" type="text" maxlength="2048">
+        <center>
             <input class="buttons" type="button" value="Google Search">
             <input class="buttons" type="button" value="I'm Feeling Lucky">
-        </form>
+        </center>
+        <ul>
+            <li><a class="footer" href="https://ads.google.com/intl/en_uk/home/">Advertising</a></li>
+            <li><a class="footer" href="https://ads.google.com/intl/en_uk/home/">Business</a></li>
+            <li><a class="footer" href="https://ads.google.com/intl/en_uk/home/">How Search works</a></li>
+        </ul>        
     </body>
 </html>
