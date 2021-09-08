@@ -35,6 +35,49 @@
                 width: 527px;
                 height: 34px;
            }
+           .buttons {
+                background-color: #f8f9fa;
+                border-radius: 4px;
+                color: #3c4043;
+                font-family: arial, sans-serif;
+                font-size: 14px;
+                margin-top: 11px;
+                margin-right: 4px;
+                margin-bottom: 11px;
+                margin-left: 4px;
+                padding-top: 0px;
+                padding-right: 16px;
+                padding-bottom: 0px;
+                padding-left: 16px;
+                line-height: 27px;
+                height: 36px;
+                min-width: 54px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+           }
+           .buttons:hover{
+                box-shadow: 0 1px 1px rgba(0,0,0,.1);
+                background-color: #f8f9fa;
+                border-top-color: rgb(218, 220, 224);
+                border-top-style: solid;
+                border-top-width: 1px;
+                border-right-color: rgb(218, 220, 224);
+                border-right-style: solid;
+                border-right-width: 1px;
+                border-bottom-color: rgb(218, 220, 224);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-left-color: rgb(218, 220, 224);
+                border-left-style: solid;
+                border-left-width: 1px;
+                border-image-outset: 0;
+                border-image-repeat: stretch;
+                border-image-slice: 100%;
+                border-image-source: none;
+                border-image-width: 1;
+                color: #202124;
+           }
         </style>
     </head>
     <body>
@@ -43,6 +86,10 @@
             <li><a class="header" href="https://store.google.com">Store</a></ul>
         </ul>
         <img class="foogle_image" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/the_front_end/project_html_css/imgs/00.png" alt="Foogle">
-        <input class="search_form" type="text" maxlength="2048">
+        <form>
+            <input class="search_form" type="text" maxlength="2048">
+            <input class="buttons" type="button" value="Google Search">
+            <input class="buttons" type="button" value="I'm Feeling Lucky">
+        </form>
     </body>
 </html>
